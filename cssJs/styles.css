@@ -66,6 +66,11 @@ body {
 
   width: 25px;
   height: 25px;
+
+  margin-left: -37px;
+  top: 134px;
+
+  position: absolute;
 }
 
 hr {
