@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
+@media screen and (max-width: 340px) {
+  form button {
+    right: 5%;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
