@@ -4,9 +4,9 @@ function App() {
     return ( 
         <div>
             <section id="sectionTop">
-                <h1 class="center">uTask</h1>
+                <h1 className="center">uTask</h1>
             
-                <form class="center" post="">
+                <form className="center" post="">
                     <input type="text" required placeholder="Add uma nova tarefa" ></input>
                     <button type="submit" ></button>
                 </form>
@@ -16,13 +16,13 @@ function App() {
             <section id="sectionMiddle" >
                 <hr></hr>
 
-                <h2 class="center" >TODO</h2>
+                <h2 className="center" >TODO</h2>
 
-                <div id="div-meio" class="center" >
+                <div id="div-meio" className="center" >
                 </div>
 
-                <div id="nada" class="center" >
-                    <img src="./assets/beach.png" alt="Foto de uma praia" class="" ></img>
+                <div id="nada" className="center" >
+                    <img src="./assets/beach.png" alt="Foto de uma praia" className="" ></img>
                     <p>Nada por aqui!</p>
                 </div>
             </section>
@@ -30,13 +30,13 @@ function App() {
             <section id="sectionBottom" >
                 <hr></hr>
 
-                <h2 class="center" >DONE</h2>
+                <h2 className="center" >DONE</h2>
 
                 <div id="div-rodape" >
                 </div>
 
-                <div id="nada" class="center" >
-                    <img src="./assets/beach.png" alt="Foto de uma praia" class="" ></img>
+                <div id="nada" className="center" >
+                    <img src="./assets/beach.png" alt="Foto de uma praia" className="" ></img>
                     <p>Nada por aqui!</p>
                 </div>
             </section>
