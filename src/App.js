@@ -1,4 +1,5 @@
 import React from 'react'; 
+import beach from "./assets/beach.png";
 
 function App() {
     return ( 
@@ -22,7 +23,7 @@ function App() {
                 </div>
 
                 <div id="nada" className="center" >
-                    <img src="./assets/beach.png" alt="Foto de uma praia" className="" ></img>
+                    <img src={beach} alt="Foto de uma praia" className="" ></img>
                     <p>Nada por aqui!</p>
                 </div>
             </section>
@@ -36,7 +37,7 @@ function App() {
                 </div>
 
                 <div id="nada" className="center" >
-                    <img src="./assets/beach.png" alt="Foto de uma praia" className="" ></img>
+                    <img src={beach} alt="Foto de uma praia" className="" ></img>
                     <p>Nada por aqui!</p>
                 </div>
             </section>
